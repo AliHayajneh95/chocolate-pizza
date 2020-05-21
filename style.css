@@ -1,0 +1,81 @@
+body
+{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#logo div img
+{
+    float: left;
+}
+
+
+#logo div h2
+{
+    margin: 0px;
+}
+
+#logo div p
+{
+    font-size: small;
+    color:  gray;
+    margin: 0px;
+}
+
+nav ul
+{
+    float: right;
+}
+
+#subject
+{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#subject h1
+{
+    margin: 0px;
+}
+#subject p
+{    
+    margin: 0px;
+    font-size: small;
+    color:  gray;
+}
+
+.print 
+{
+    float: right;
+    margin-right: 3;
+    padding-bottom: 20px;
+}
+
+#pizza
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.p 
+{
+    text-indent: 25px;
+    color:  gray;
+}
+
+#recipe
+{
+    background-image: url("img/list-bg.png");
+
+}
+
+main div ul 
+{
+    position: relative;
+    float: left;
+}
+
+#profile
+{
+    position: relative;
+}
