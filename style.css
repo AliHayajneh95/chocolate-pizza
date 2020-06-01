@@ -52,7 +52,10 @@ nav ul {
 }
 
 #subject h1 {
-    font-family: 'Times New Roman', Times, serif margin: 0px;
+
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+
 }
 
 #subject p {
@@ -101,8 +104,7 @@ nav ul {
     position: relative;
     float: right;
     margin-top: -260px;
-    /* border: 1px solid; */
-    padding-right: 50px;
+    margin-right: -130px;
     font-size: 150%;
 }
 
