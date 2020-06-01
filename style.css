@@ -1,81 +1,162 @@
-body
-{
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap');
+
+
+
+body {
     margin-left: 20%;
     margin-right: 20%;
 }
 
-#logo div img
-{
+#logo div img {
     float: left;
 }
 
 
-#logo div h2
-{
+#logo div h2 {
+    font-family: 'Yellowtail', cursive;
+    size: 400%;
     margin: 0px;
+    padding-left: 50px;
 }
 
-#logo div p
-{
+#logo div p {
     font-size: small;
-    color:  gray;
+    color: gray;
     margin: 0px;
+    padding-left: 50px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
-nav ul
-{
+hr {
+    margin-top: 40px;
+    width: 900px;
+    height: 15px;
+    background-image: url('https://github.com/LTUC/amman-201d5/blob/master/class-10/lab-a/lab-assets/hr-img.png?raw=true');
+
+}
+
+nav ul {
     float: right;
 }
 
-#subject
-{
+#subject {
     margin-top: 50px;
     margin-bottom: 20px;
+
 }
 
-#subject h1
-{
+#subject h1 {
+    font-family: 'Times New Roman', Times, serif;
     margin: 0px;
 }
-#subject p
-{    
+
+#subject p {
+    font-family: Arial, Helvetica, sans-serif;
+
     margin: 0px;
     font-size: small;
-    color:  gray;
+    color: gray;
 }
 
-.print 
-{
+.print {
     float: right;
     margin-right: 3;
     padding-bottom: 20px;
 }
 
-#pizza
-{
+#pizza {
     max-width: 100%;
     max-height: 100%;
 }
 
-.p 
-{
+.p {
     text-indent: 25px;
-    color:  gray;
+    color: gray;
 }
 
-#recipe
-{
-    background-image: url("img/list-bg.png");
-
+#image:before {
+    content: url(img/list-bg.png);
 }
 
-main div ul 
-{
+#leftlist {
+    font-family: 'Baloo Chettan 2', cursive;
+    display: inline;
     position: relative;
+    float: left;
+    margin-top: -260px;
+    /* border: 1px solid; */
+    font-size: 150%;
+    margin-left: 50px;
+
+}
+
+#rightlist {
+    font-family: 'Baloo Chettan 2', cursive;
+    display: inline;
+    position: relative;
+    float: right;
+    margin-top: -260px;
+    margin-right: -130px;
+    font-size: 150%;
+}
+
+.check:checked+label {
+    text-decoration: line-through;
+}
+
+#profile {
+    margin-top: 70px;
+}
+
+#profile img {
     float: left;
 }
 
-#profile
-{
-    position: relative;
+
+#profile h4 {
+    font-family: 'Segoe UI';
+    margin-bottom: 10px;
+}
+
+#profile p {
+    
+    font-family: 'Baloo Chettan 2', cursive ;
+    margin-bottom: 20px;
+
+}
+
+
+button {
+    float: right;
+    background-color: rgba(182, 55, 38, 0.63);
+    color: white;
+    float: right;
+    margin-top: 10px;
+    margin-left: 650px;
+    width: 180px;
+    height: 50px;
+    border-style: none;
+    position: absolute;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+footer img {
+    opacity: 0.5;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer p {
+    color: gray;
+    text-align: center;
 }
